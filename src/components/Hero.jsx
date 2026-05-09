@@ -27,7 +27,7 @@ function Hero() {
     </div>
   </div>
   <div>
-    <a href="#" className="primary_button whatsapp w-button">تواصل معنا</a>
+    <a href="#!" className="primary_button whatsapp w-button">تواصل معنا</a>
   </div>
 </div>
 

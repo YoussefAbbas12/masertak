@@ -10,11 +10,11 @@ function footer() {
                     <div className="block"><img src={logoImg} loading="lazy" width={242} height={73} alt="مسيرتك" className="vectors-wrapper" />
                         <div className="text-3">صناعة قادة التكنولوجيا القادمين</div>
                         <div className="social">
-                            <a href="" className="w-inline-block"><i class="fa-solid fa-envelope"></i></a>
-                            <a href="" className="w-inline-block"><i class="fa-brands fa-square-youtube"></i></a>
-                            <a href="" className="w-inline-block"><i class="fa-brands fa-square-instagram"></i></a>
-                            <a href="" className="w-inline-block"><i class="fa-brands fa-square-facebook"></i></a>
-                            <a href="" className="w-inline-block"><i class="fa-solid fa-phone"></i></a>
+                            <a href="#!" className="w-inline-block"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="#!" className="w-inline-block"><i class="fa-brands fa-square-youtube"></i></a>
+                            <a href="#!" className="w-inline-block"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#!" className="w-inline-block"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#!" className="w-inline-block"><i class="fa-solid fa-phone"></i></a>
                         </div>
                     </div>
                     <div className="block-2" style={{width: '50%'}}>

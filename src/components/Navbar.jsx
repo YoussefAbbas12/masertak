@@ -24,14 +24,14 @@ function Navbar() {
               </a>
             </div>
             <div className="navbtns-wrapper">
-              <a href className="primary_button whatsapp sm w-button" style={{marginLeft: '50px'}}>تواصل معنا</a>
-              <a id="toggleButton" href="#" className="language-toggle-static w-inline-block">
+              <a href="#!" className="primary_button whatsapp sm w-button" style={{marginLeft: '50px'}}>تواصل معنا</a>
+              <a id="toggleButton" href="#!" className="language-toggle-static w-inline-block">
                 <i className="fa-solid fa-globe" />
                 <div id="langName" className="lang-name">EN</div>
               </a>
             </div>
           </nav>
-          <a id="toggleButton" href="#" className="language-toggle-static mobile ar w-inline-block">
+          <a id="toggleButton" href="#!" className="language-toggle-static mobile ar w-inline-block">
             <i className="fa-solid fa-globe" />
             <div id="langName" className="lang-name">EN</div>
           </a>
