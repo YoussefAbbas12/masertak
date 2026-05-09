@@ -1,0 +1,302 @@
+/* Responsive Design Styling */
+/* PLEASE DON'T TOUCH THIS PART */
+html {
+    font-size: 1rem;
+    /* 1rem is based on the root font size, typically 16px */
+}
+
+/* For viewports between 992px and 1440px */
+@media screen and (max-width: 1440px) and (min-width: 992px) {
+    html {
+        font-size: calc(min(1rem, .002182rem + 1.1087vw));
+        /* Ensures font size won't drop below 1rem (~16px) */
+    }
+}
+
+/* For viewports above 1440px */
+@media screen and (min-width: 1441px) {
+    html {
+        font-size: calc(max(1rem, .0003rem + 0.3vw));
+        /* Reduced scaling for larger screens */
+        /* Adjusted the scaling factors to make it smaller */
+    }
+}
+
+/* For very small screens (below 370px) */
+@media screen and (max-width: 370px) {
+    html {
+        font-size: calc(min(0.875rem, -.00267rem + 4.2755vw));
+        /* Ensures font size won't drop below 0.875rem (~14px) */
+    }
+}
+
+/* Responsive Design Styling */
+/* PLEASE DON'T TOUCH THIS PART */
+
+.modal-content {
+    max-width: 325px !important;
+}
+
+#whatsapp_chat_widget {
+    direction: ltr !important;
+}
+
+.wa-chat-box {
+    direction: ltr !important;
+}
+
+.btn-hidden {
+    display: none !important;
+}
+
+/* Standard syntax */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-link.w--current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* Negative height */
+    width: 100%;
+    height: 4px;
+    /* Height of border */
+    background-color: #056FEC;
+    border-radius: 5rem;
+    /* This can be any number but is normally set very high for the pill-shape */
+}
+
+#scroll-horizontal::-webkit-scrollbar {
+    width: 0.5em;
+    /* Adjust as needed */
+}
+
+#scroll-horizontal::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* or set a background color */
+}
+
+.w-slider-dot {
+    height: 6px;
+    background: #B4D4F9 !important;
+    top: 3px;
+}
+
+.w-slider-dot.w-active {
+    height: 6px;
+    background: #056FEC !important;
+    top: 3px;
+}
+
+.w-slider-nav.w-round > div {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.vectors-wrapper-16 {
+    margin-left: 0px !important;
+    margin-right: auto !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.splide__slide {
+    margin-top: 17px !important;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.slider_card_container {
+    width: 277px;
+    height: 373px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    border-radius: 20px;
+    background: #EAF4FF;
+    margin-right: 10px;
+    flex-direction: column;
+    padding: 0 0 24px;
+}
+
+.slider_card_container:last-child {
+    margin-right: 0;
+}
+
+.slider_card__flag {
+    position: absolute;
+    top: -17px;
+    width: 64px;
+    height: 94px;
+}
+
+.slider_card_container.whitebg {
+    background-color: white;
+}
+
+.slider_card_body {
+    position: relative;
+    width: 100%;
+    height: 288px;
+    display: flex;
+    background: url(https://cdn.prod.website-files.com/64932184eba96b524e821c60/64a0c206fd5bcfa2fbf588c7_12.jpg) center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.slider_card_title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+}
+
+.slider_card_desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+}
+
+.slider_card__text {
+    margin-top: 24px;
+}
+
+.slider_card_bottom {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 14px 12px 14px;
+    border-radius: 0px 0px 15px 15px;
+    background: #ECF8FFCC;
+    align-items: center;
+}
+
+.slider_card_name_tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 12px;
+}
+
+.slider_card_name_tag h6 {
+    color: #056FEC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 0px !important;
+    margin-bottom: 6px !important;
+}
+
+.slider_card_name_tag span {
+    color: rgba(31, 42, 85, 0.60);
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    z-index: 5;
+}
+
+.modal-content {
+    max-width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% auto 0;
+    opacity: 1;
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    padding: 0;
+}
+
+.uui-heading-xsmall-2,
+.uui-text-size-medium-3 {
+    color: inherit;
+}
+
+.w-slider-nav-invert > div.w-active {
+    background-color: #076FEC;
+}
+
+.w-slider-nav-invert > div {
+    background-color: #88B5E7;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-content {
+        max-width: 90%;
+        height: 300px;
+        margin: 25% auto 0;
+    }
+
+    .video {
+        max-height: 400px;
+    }
+}
+
+.grade-wrapper {
+    display: flex;
+    column-gap: 6px;
+}
+
+.eg-flag-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
