@@ -69,7 +69,7 @@ function Why() {
       <div className="mask w-slider-mask">
         <div className="slide w-slide">
           <div className="slide-content ar">
-            <div className="why-image"><img src="https://cdn.prod.website-files.com/654117d5c0d58bf27cf29031/65772bcb306dd4b9d2d46fbb_Website-designs-o-01.png" loading="lazy" width={467} height={364} alt="مناهج متعددة" className="website-designs-o-01" /></div>
+            <div className="why-image"><img src="https://cdn.prod.website-files.com/654117d5c0d58bf27cf29031/65772bcb306dd4b9d2d46fbb_Website-designs-o-01.png" loading="lazy" width={467} height={364} alt="مناهج متعددة" className="website-designs-o-01" decoding="async" /></div>
             <div className="why-description">
               <div className="pre-heading">مناهج متعددة من stem &amp; Ai</div>
               <div className="headline">يتعلم الطلاب البرمجة باستخدام نفس المنصات التي يتعلم منها
@@ -83,7 +83,7 @@ function Why() {
         </div>
         <div className="slide w-slide">
           <div className="slide-content ar">
-            <div className="why-image"><img src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c81e3de59b1b60bc7352_Website%20designs-o-02.webp" loading="lazy" width={467} height={364} alt="تكون الحصة لايف" className="website-designs-o-01" /></div>
+            <div className="why-image"><img src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c81e3de59b1b60bc7352_Website%20designs-o-02.webp" loading="lazy" width={467} height={364} alt="تكون الحصة لايف" className="website-designs-o-01" decoding="async" /></div>
             <div className="why-description">
               <div className="pre-heading">تكون الحصة لايف وليست مسجلة</div>
               <div className="headline">مع مدرب شخصي</div>
@@ -96,7 +96,7 @@ function Why() {
         </div>
         <div className="slide w-slide">
           <div className="slide-content ar">
-            <div className="why-image"><img src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c839b33e1d97576bb0dc_Website%20designs-o-03.webp" loading="lazy" width={467} height={364} alt="أفضل مدربين" srcSet="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c839b33e1d97576bb0dc_Website%20designs-o-03-p-500.webp 500w, https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c839b33e1d97576bb0dc_Website%20designs-o-03.webp 601w" sizes="(max-width: 479px) 100vw, 467px" className="website-designs-o-01" /></div>
+            <div className="why-image"><img src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c839b33e1d97576bb0dc_Website%20designs-o-03.webp" loading="lazy" width={467} height={364} alt="أفضل مدربين" srcSet="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c839b33e1d97576bb0dc_Website%20designs-o-03-p-500.webp 500w, https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c839b33e1d97576bb0dc_Website%20designs-o-03.webp 601w" sizes="(max-width: 479px) 100vw, 467px" className="website-designs-o-01" decoding="async" /></div>
             <div className="why-description">
               <div className="pre-heading">أفضل مدربين علوم الكمبيوتر</div>
               <div className="headline">من جميع أنحاء العالم تم تدريبهم من قبل فريق الخبراء و لدينا أيضًا
@@ -110,7 +110,7 @@ function Why() {
         </div>
         <div className="slide w-slide">
           <div className="slide-content ar">
-            <div className="why-image"><img src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c84f9f60d7965dba86fb_Website%20designs-o-04.webp" loading="lazy" width={467} height={364} alt="خطة مهنية" srcSet="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c84f9f60d7965dba86fb_Website%20designs-o-04-p-500.webp 500w, https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c84f9f60d7965dba86fb_Website%20designs-o-04.webp 596w" sizes="(max-width: 479px) 100vw, 467px" className="website-designs-o-01" /></div>
+            <div className="why-image"><img src="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c84f9f60d7965dba86fb_Website%20designs-o-04.webp" loading="lazy" width={467} height={364} alt="خطة مهنية" srcSet="https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c84f9f60d7965dba86fb_Website%20designs-o-04-p-500.webp 500w, https://cdn.prod.website-files.com/655a78032f46f2e55da300d7/6574c84f9f60d7965dba86fb_Website%20designs-o-04.webp 596w" sizes="(max-width: 479px) 100vw, 467px" className="website-designs-o-01" decoding="async" /></div>
             <div className="why-description">
               <div className="pre-heading">خطة مهنية طويلة المدى للبرمجة</div>
               <div className="headline">مع رؤية متكاملة لتنمية طفلك</div>
